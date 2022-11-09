@@ -1,0 +1,13 @@
+name = "NthComb"
+uuid = "44698416-5ebb-4509-aba9-3f7642123741"
+authors = ["Andrew Loza"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
