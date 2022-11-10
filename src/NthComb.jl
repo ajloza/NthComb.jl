@@ -41,7 +41,7 @@ function nthcomb(n::Integer,k::Integer,m::Integer)
     m = binomial(n,k)-m # convert to dual
     
     if m<0
-        throw(ArgumentError("Reqeuested index m = $m greater than total number of combinations = $(binomial(n,k))."))
+        throw(ArgumentError("Reqeuested index m = $(binomial(n,k)-m), this is greater than the total number of combinations = $(binomial(n,k))."))
     end
     if n==k
         return 1:n
