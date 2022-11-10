@@ -6,7 +6,6 @@ using Random
 
 export nthcomb
 
-# TODO: should be based on combinations N = S1 ∪ S2  where S1 = nchoosek(N,n) [[S1] S2[i]]
 
 # n choose k, find leading index for `m`th lexicographic combination of size k, helper for nthcomb
 function leadingidx(k::Integer,m::Integer)
