@@ -1,6 +1,10 @@
 # NthComb
 
-[![Build Status](https://travis-ci.com/ajloza/NthComb.jl.svg?branch=main)](https://travis-ci.com/ajloza/NthComb.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/ajloza/NthComb.jl?svg=true)](https://ci.appveyor.com/project/ajloza/NthComb-jl)
-[![Coverage](https://codecov.io/gh/ajloza/NthComb.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/ajloza/NthComb.jl)
-[![Coverage](https://coveralls.io/repos/github/ajloza/NthComb.jl/badge.svg?branch=main)](https://coveralls.io/github/ajloza/NthComb.jl?branch=main)
+```julia
+"""
+`nthcomb(n,k,m)`
+
+Compute the `m`th lexicographic combination of size `k` from collection with `n` elements with assumed values `1:n`. equivalent to `collect(combinations(1:n,k))[m]`
+    
+"""
+```
