@@ -1,5 +1,13 @@
 # NthComb
 
+
+```julia
+"""
+`nthcomb(a,k,m)`
+Compute the `m`th lexicographic combination of size `k` from collection `a`. equivalent to `collect(combinations(a,k))[m]`
+"""
+```
+
 ```julia
 """
 `nthcomb(n,k,m)`
